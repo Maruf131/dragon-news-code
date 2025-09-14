@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
+import LatestNews from "../components/LatestNews";
+import Navbar from "../components/Navbar";
 
 
 const HomeLayout = () => {
@@ -7,6 +9,12 @@ const HomeLayout = () => {
         <div className="max-w-11/12 mx-auto">
             <header>
                 <Header></Header>
+                <section>
+                    <LatestNews></LatestNews>
+                </section>
+                <section>
+                    <Navbar></Navbar>
+                </section>
             </header>
             <main>
                 <section className="left_nav"></section>
