@@ -3,7 +3,9 @@
     themes: light --default;
 }
 
-
 body{
   font-family: "Exo", sans-serif;
+}
+a.active{
+  @apply bg-base-300;
 }
